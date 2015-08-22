@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8DA53C1B88C6B700EF96AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA5351B88C6B700EF96AF /* AppDelegate.swift */; };
+		3A8DA53E1B88C6B700EF96AF /* GoogleImagePhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA5371B88C6B700EF96AF /* GoogleImagePhotoBrowser.swift */; };
+		3A8DA53F1B88C6B700EF96AF /* GoogleImagePhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA5381B88C6B700EF96AF /* GoogleImagePhotoService.swift */; };
+		3A8DA5401B88C6B700EF96AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DA5391B88C6B700EF96AF /* Images.xcassets */; };
+		3A8DA5521B88C82C00EF96AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DA5511B88C82C00EF96AF /* Info.plist */; };
+		3A8DA5571B88C99200EF96AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DA5531B88C99200EF96AF /* LaunchScreen.xib */; };
+		3A8DA5581B88C99200EF96AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DA5551B88C99200EF96AF /* Main.storyboard */; };
+		E7E56A1634DC79E87D7A2013 /* libPods-UberPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F24470353A18B5424A36F7D /* libPods-UberPhotoBrowser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F24470353A18B5424A36F7D /* libPods-UberPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UberPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8DA5351B88C6B700EF96AF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GoogleImagePhotoBrowser/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3A8DA5371B88C6B700EF96AF /* GoogleImagePhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleImagePhotoBrowser.swift; path = GoogleImagePhotoBrowser/GoogleImagePhotoBrowser.swift; sourceTree = SOURCE_ROOT; };
+		3A8DA5381B88C6B700EF96AF /* GoogleImagePhotoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleImagePhotoService.swift; path = GoogleImagePhotoBrowser/GoogleImagePhotoService.swift; sourceTree = SOURCE_ROOT; };
+		3A8DA5391B88C6B700EF96AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoogleImagePhotoBrowser/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		3A8DA53B1B88C6B700EF96AF /* GoogleImagePhotoBrowser-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GoogleImagePhotoBrowser-Bridging-Header.h"; path = "GoogleImagePhotoBrowser/GoogleImagePhotoBrowser-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		3A8DA5511B88C82C00EF96AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GoogleImagePhotoBrowser/Info.plist; sourceTree = SOURCE_ROOT; };
+		3A8DA5541B88C99200EF96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = GoogleImagePhotoBrowser/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		3A8DA5561B88C99200EF96AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GoogleImagePhotoBrowser/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		3AA8A8551B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleImagePhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F293940E25B22C8EFF811F /* Pods-UberPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberPhotoBrowser/Pods-UberPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		FC9949C3A979DEDA2B4296EA /* Pods-UberPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberPhotoBrowser/Pods-UberPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA8A8521B7BBD0600C5F5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E56A1634DC79E87D7A2013 /* libPods-UberPhotoBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA8A84C1B7BBD0600C5F5D7 = {
+			isa = PBXGroup;
+			children = (
+				3AA8A8571B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser */,
+				3AA8A8561B7BBD0600C5F5D7 /* Products */,
+				B46707CEA906EA07C52B258F /* Pods */,
+				7590AF514CE508756B5929AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AA8A8561B7BBD0600C5F5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8A8551B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA8A8571B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DA5351B88C6B700EF96AF /* AppDelegate.swift */,
+				3A8DA5371B88C6B700EF96AF /* GoogleImagePhotoBrowser.swift */,
+				3A8DA5381B88C6B700EF96AF /* GoogleImagePhotoService.swift */,
+				3A8DA53B1B88C6B700EF96AF /* GoogleImagePhotoBrowser-Bridging-Header.h */,
+				3A8DA5531B88C99200EF96AF /* LaunchScreen.xib */,
+				3A8DA5551B88C99200EF96AF /* Main.storyboard */,
+				3A8DA5391B88C6B700EF96AF /* Images.xcassets */,
+				3AA8A8581B7BBD0600C5F5D7 /* Supporting Files */,
+			);
+			name = GoogleImagePhotoBrowser;
+			path = UberPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		3AA8A8581B7BBD0600C5F5D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DA5511B88C82C00EF96AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7590AF514CE508756B5929AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F24470353A18B5424A36F7D /* libPods-UberPhotoBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B46707CEA906EA07C52B258F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F293940E25B22C8EFF811F /* Pods-UberPhotoBrowser.debug.xcconfig */,
+				FC9949C3A979DEDA2B4296EA /* Pods-UberPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA8A8541B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA8A8741B7BBD0700C5F5D7 /* Build configuration list for PBXNativeTarget "GoogleImagePhotoBrowser" */;
+			buildPhases = (
+				825F96C4D14CABBA8B08657C /* Check Pods Manifest.lock */,
+				3AA8A8511B7BBD0600C5F5D7 /* Sources */,
+				3AA8A8521B7BBD0600C5F5D7 /* Frameworks */,
+				3AA8A8531B7BBD0600C5F5D7 /* Resources */,
+				43644777F18A77015C008CEF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleImagePhotoBrowser;
+			productName = UberPhotoBrowser;
+			productReference = 3AA8A8551B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AA8A84D1B7BBD0600C5F5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Urs;
+				TargetAttributes = {
+					3AA8A8541B7BBD0600C5F5D7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3AA8A8501B7BBD0600C5F5D7 /* Build configuration list for PBXProject "GoogleImagePhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AA8A84C1B7BBD0600C5F5D7;
+			productRefGroup = 3AA8A8561B7BBD0600C5F5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA8A8541B7BBD0600C5F5D7 /* GoogleImagePhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AA8A8531B7BBD0600C5F5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8DA5521B88C82C00EF96AF /* Info.plist in Resources */,
+				3A8DA5571B88C99200EF96AF /* LaunchScreen.xib in Resources */,
+				3A8DA5401B88C6B700EF96AF /* Images.xcassets in Resources */,
+				3A8DA5581B88C99200EF96AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43644777F18A77015C008CEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UberPhotoBrowser/Pods-UberPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825F96C4D14CABBA8B08657C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA8A8511B7BBD0600C5F5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8DA53E1B88C6B700EF96AF /* GoogleImagePhotoBrowser.swift in Sources */,
+				3A8DA53F1B88C6B700EF96AF /* GoogleImagePhotoService.swift in Sources */,
+				3A8DA53C1B88C6B700EF96AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8DA5531B88C99200EF96AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8DA5541B88C99200EF96AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3A8DA5551B88C99200EF96AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8DA5561B88C99200EF96AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AA8A8721B7BBD0700C5F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AA8A8731B7BBD0700C5F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA8A8751B7BBD0700C5F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F293940E25B22C8EFF811F /* Pods-UberPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GoogleImagePhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = GoogleImagePhotoBrowser;
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleImagePhotoBrowser/GoogleImagePhotoBrowser-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AA8A8761B7BBD0700C5F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9949C3A979DEDA2B4296EA /* Pods-UberPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GoogleImagePhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = GoogleImagePhotoBrowser;
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleImagePhotoBrowser/GoogleImagePhotoBrowser-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AA8A8501B7BBD0600C5F5D7 /* Build configuration list for PBXProject "GoogleImagePhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA8A8721B7BBD0700C5F5D7 /* Debug */,
+				3AA8A8731B7BBD0700C5F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA8A8741B7BBD0700C5F5D7 /* Build configuration list for PBXNativeTarget "GoogleImagePhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA8A8751B7BBD0700C5F5D7 /* Debug */,
+				3AA8A8761B7BBD0700C5F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AA8A84D1B7BBD0600C5F5D7 /* Project object */;
+}
