@@ -109,14 +109,6 @@ extension GoogleImagePhotoBrowser: UICollectionViewDataSource {
     
 }
 
-extension GoogleImagePhotoBrowser: UICollectionViewDelegateFlowLayout {
-    /*func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        let photo = self.photos[indexPath.row]
-        
-        return CGSize(width: photo.width, height: photo.height)
-    }*/
-}
-
 class GoogleImagePhotoCollectionViewCell: UICollectionViewCell {
     let imageView = UIImageView()
     
